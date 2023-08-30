@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content; /* Ajusta a largura para o tamanho da grade */
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .visible {
+    background-color: red; /* Torna o quadrado visível */
+  }
